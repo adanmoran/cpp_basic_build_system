@@ -18,11 +18,11 @@ target_include_directories(PrintLib PUBLIC
     ${CMAKE_SOURCE_DIR}/include
 )
 
-add_executable(Test main.cpp)
-target_include_directories(Test PUBLIC 
+add_executable(main main.cpp)
+target_include_directories(main PUBLIC 
     ${CMAKE_SOURCE_DIR}/include/
 )
-target_link_libraries(Test
+target_link_libraries(main
     PrintLib
 )
 
