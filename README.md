@@ -30,3 +30,9 @@ One can also input the desired compiler and generator to the script:
 There are example test suites provided. After compilation, you can run
 the `example` and `src/calculator/test/CalcTest` executables to see the
 tests running.
+
+## Downloading a basic build system
+To run a very basic build system which you can use immediately (with few modifications)
+as the start for a new project, check out the `bare_bones` branch. It contains the minimum
+structure required of a build system, as well as a distinct README for donwloading the
+build code quickly.
