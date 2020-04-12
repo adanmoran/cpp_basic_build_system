@@ -9,6 +9,8 @@ target_include_directories(Calc PUBLIC
 ########
 # Test #
 ########
+# Add a subdirectory which contains test code
+# for the calculator library
 add_subdirectory(test)
 
 
